@@ -1,0 +1,2 @@
+# primer_blast_view
+读取引物blast比对后xml格式的blast结果，可视化输出
