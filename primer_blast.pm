@@ -294,6 +294,8 @@ sub primer_blast{
                 }
                 print "\n";
             }
+
+            say ">> ".$primer_1;
             # 输出正向引物\正向探针（如果存在）
             my $interval_bp_1 = $primer_2_start - $primer_1_end - 1;
             my $primer_1_inter = $primers{$primer_1}->{total_length} - 2;
